@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
-import App from "./App";
+import App from "./App-memo";
+// import App from "./App";
 // import Appv1 from "./Appv1";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <Appv1 /> */}
+    <App />
   </React.StrictMode>
 );
